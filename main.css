@@ -1,0 +1,35 @@
+body{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.circle-border {
+	opacity: 1;
+	height: 10em;
+	width: 10em;
+	border: 3px solid black;
+	border-radius: 50%;
+	
+}
+
+.resume {
+	height: 100%;
+	width: auto;
+	padding: 23px;
+	z-index: 10;
+	background-size: cover;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	background: rgba(255, 0, 0, 0.3);
+}
+
+#circles {
+	margin: 15px;
+}
+
+#troovalue {
+	color: red;
+}

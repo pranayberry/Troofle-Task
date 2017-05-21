@@ -50,6 +50,8 @@ hr {
 .desc {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    width: 98%;
+    word-wrap: break-word;
 }
 
 .main-heading {

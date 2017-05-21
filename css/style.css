@@ -205,10 +205,10 @@ div a {
 
 @media only screen and (max-width: 991px) {
     .desc {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
     .abilities {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .phone {
         margin-left: 1em;

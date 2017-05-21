@@ -208,4 +208,10 @@ div a {
     .abilities {
         font-size: 2em;
     }
+    .phone {
+        margin-left: 1em;
+    }
+    .score {
+        padding: 0 3.5em 0 2em;
+    }
 }

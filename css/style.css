@@ -77,20 +77,37 @@ body {
 .score {
     border-right: 1px solid;
     border-left: 1px solid;
-    display: table;
     width: 35%;
-    float: left;
+    margin-top: 0em;
+    padding: 0 3em 0 1.75em; 
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    position: relative;
+    
 }
 
 .phone {
-    width: 50%;
+    margin-top: 0em ;
+    margin-left: 0.75em;
+    color: #0f60c4;
+    text-shadow: 0.2em 0.2em 0.7em #000;
+    font-size: 2em;
 }
 
 .mail {
-    width: 50%;
+    margin-top: 0em ;
+    float: right;
+    margin-right: 1.2em;
+    color: red;
+    text-shadow: 0.2em 0.2em 0.7em #000;
+    font-size: 2em;
 }
 
-
+.details {
+    box-shadow: inset 0px 0px 5em 5em rgba(68,68,68,0.11);
+    height: 100%;
+    padding-top: 1em;
+}
 
 div i {
     text-align: center;

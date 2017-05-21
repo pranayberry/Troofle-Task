@@ -71,8 +71,30 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 6em;
+    text-decoration: underline;
 }
 
+.score {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    display: table;
+    width: 35%;
+    float: left;
+}
+
+.phone {
+    width: 50%;
+}
+
+.mail {
+    width: 50%;
+}
+
+
+
+div i {
+    text-align: center;
+}
 @media only screen and (max-width: 991px) {
     .cards{
         margin-left: 2.5em !important;

@@ -87,6 +87,7 @@ hr {
 }
 .cards {
     width: 95%;
+    margin-left: 7em !important;
 }
 
 .result {
@@ -94,6 +95,7 @@ hr {
     font-weight: 900;
     font-size: 6em;
     text-decoration: underline;
+    margin-left: -1em;
 }
 
 .score {
@@ -196,5 +198,14 @@ div a {
     }
     .mail {
         margin-left: -0.5em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .desc {
+        font-size: 1.25em;
+    }
+    .abilities {
+        font-size: 2em;
     }
 }

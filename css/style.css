@@ -16,8 +16,12 @@ body {
  }
 
 hr {
-    margin-top: 50em;
-    position: absolute;
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#000;
+  height: 1px !important;
 }
 
  #logo {
@@ -28,6 +32,10 @@ hr {
 
 #troovalue {
 	color: #ff0000;
+    height: 100%;
+    text-align: right;
+    position: relative;
+    margin-top: 1em;
 }
 
 .centerBlock {
@@ -47,6 +55,10 @@ hr {
 .main-heading {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+    font-size: 3.5em;
+    text-decoration: underline;
+    margin: auto;
+    text-align: center;
 }
 
 .card {

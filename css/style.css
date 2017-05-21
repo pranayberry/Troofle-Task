@@ -15,6 +15,11 @@ body {
      font-weight: 900;
  }
 
+hr {
+    margin-top: 50em;
+    position: absolute;
+}
+
  #logo {
 	height: 100px;
 	width: 100px;
@@ -110,6 +115,7 @@ body {
     box-shadow: inset 0px 0px 5em 5em rgba(68,68,68,0.11);
     height: 100%;
     padding-top: 1em;
+    border-radius: 0 0 5px 5px;
 }
 
 div i {
@@ -125,4 +131,58 @@ div a {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .phone {
+        margin-left: 0.5em;
+        margin-right: 0.25em;
+    }
+}
 
+@media only screen and (max-width: 1269px) and (min-width: 1200px) {
+    .mail {
+        margin-left: 0.5em;
+    }
+    .score {
+        padding: 0 3em 0 1.5em;
+    }
+    .phone {
+        margin-left: 1em;
+        margin-right: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+    .mail {
+        margin-left: 0.5em;
+    }
+    .score {
+        padding: 0 2.75em 0 1.25em;
+    }
+    .phone {
+        margin-left: 1em;
+        margin-right: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+    .mail {
+        margin-left: 0.5em;
+    }
+    .score {
+        padding: 0 2.75em 0 1.25em;
+    }
+    .phone {
+        margin-left: 0.5em;
+        margin-right: 0em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .phone {
+        margin-left: 0.5em;
+        margin-right: 0.25em;
+    }
+    .mail {
+        margin-left: -0.5em;
+    }
+}

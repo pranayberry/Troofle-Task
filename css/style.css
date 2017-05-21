@@ -39,7 +39,44 @@ body {
     font-weight: 400;
 }
 
-#main-heading {
+.main-heading {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    width: 75%;
+    margin:  2.5em 0em 2.5em 2.5em;
+}
+
+.avatar {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+}
+
+.title {
+    padding: 2px 16px;
+}
+
+.cards {
+    width: 95%;
+}
+
+.result {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 6em;
+}
+
+@media only screen and (max-width: 991px) {
+    .cards{
+        margin-left: 2.5em !important;
+    }
+}
+
+
